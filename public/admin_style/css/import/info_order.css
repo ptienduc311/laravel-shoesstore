@@ -1,0 +1,160 @@
+#info-customer,
+#detail-order {
+    border: 1px solid #c80606;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#info-customer>h2,
+#detail-order>h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: rgb(234, 221, 221);
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 15px;
+    margin: 0;
+    border-bottom: 1px solid #c3bdbd;
+}
+
+#info-customer .title-info {
+    display: flex;
+    padding: 10px 0px 8px 15px;
+    color: #005eff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#info-customer .title-info p {
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.table-info {
+    padding: 0 15px;
+}
+
+.table-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-info table th,
+.table-info table td {
+    border: 1px solid #c9c2c2;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-info table td {
+    word-wrap: break-word;
+}
+
+.table-info table th {
+    background-color: #ddd7d7;
+}
+
+.order-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.change-status {
+    padding-left: 15px;
+    flex-basis: 30%;
+}
+
+.change-status>select {
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+.change-status>button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #005eff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.change-status>button:hover {
+    background-color: #1750b4;
+}
+
+.order-status>.table-info {
+    flex-basis: 40%;
+}
+
+.order-status>.table-info th,
+.order-status>.table-info td {
+    text-align: center;
+}
+
+.data-product>table th,
+.data-product>table td {
+    text-align: center;
+}
+
+img#proudct-thumb-img {
+    width: 70px;
+    height: 80px;
+}
+
+/* Màu trạng thái đơn hàng */
+p.processing{
+    border-radius: 8px;
+    font-weight: 200 ;
+    font-size: 14px;
+    background: #4c33ff;
+    padding: 0px 8px !important;
+    color: white;
+}
+
+p.pending{
+    border-radius: 8px;
+    font-weight: 200 ;
+    font-size: 14px;
+    background: #d4cbba;
+    padding: 0px 8px !important;
+    color: black;
+}
+
+p.shipping{
+    border-radius: 8px;
+    font-weight: 200 ;
+    font-size: 14px;
+    background: orange;
+    padding: 0px 8px !important;
+    color: white;
+}
+
+p.delivered{
+    border-radius: 8px;
+    font-weight: 200 ;
+    font-size: 14px;
+    background: #18d718;
+    padding: 0px 8px !important;
+    color: white;
+}
+
+p.canceled{
+    border-radius: 8px;
+    font-weight: 200 ;
+    font-size: 14px;
+    background: red;
+    padding: 0px 8px !important;
+    color: white;
+}
+button.btn-print-bill{
+    background: #ff2c2c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+    padding: 3px 7px;
+}
+button.btn-print-bill:hover{
+    background-color: rgb(172, 17, 17);
+}

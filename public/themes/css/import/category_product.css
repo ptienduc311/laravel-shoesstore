@@ -1,0 +1,156 @@
+/*CATEGOGRY PRODUCT*/
+#breadcrumb-wp {
+    margin: 10px 0 25px 0;
+    font-size: 16px;
+}
+#breadcrumb-wp .list-item li {
+    float: left;
+}
+#breadcrumb-wp .list-item li a {
+    position: relative;
+    display: block;
+    color: #333;
+    padding-left: 20px;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:first-child a:before {
+    position: absolute;
+    content: "\f015";
+    font-family: "FontAwesome";
+    top: 1px;
+    left: 0;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:nth-child(n + 2) a:before {
+    position: absolute;
+    content: "\f105";
+    font-family: "FontAwesome";
+    top: 1px;
+    left: 8px;
+    line-height: normal;
+}
+.category-product-page #list-product-wp .section-title {
+    margin: 0;
+}
+.category-product-page #list-product-wp .section-head {
+    margin-bottom: 25px;
+}
+.filter-wp .desc {
+    margin-bottom: 5px;
+    color: #666;
+    text-align: right;
+}
+.filter-wp form select {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #cecece;
+    color: #666;
+}
+.filter-wp form button {
+    position: relative;
+    left: -4px;
+    background: #bebebe;
+    border: none;
+    outline: none;
+    padding: 3px 15px;
+    line-height: 25px;
+    color: #fff;
+}
+.filter-wp form button:hover {
+    background: #a2a2a2;
+}
+#filter-product-wp {
+    background: #fff;
+}
+#filter-product-wp .section-detail {
+    padding: 15px 20px;
+}
+#filter-product-wp .section-detail table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#filter-product-wp .section-detail table thead tr td {
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 10px;
+}
+#filter-product-wp .section-detail table tbody tr td {
+    padding-bottom: 5px;
+}
+#paging-wp {
+    text-align: center;
+    margin-top: 25px;
+}
+#paging-wp .list-item {
+    display: inline-block;
+}
+#paging-wp .list-item li {
+    float: left;
+    margin-right: 5px;
+}
+#paging-wp .list-item li:last-child {
+    margin-right: 0;
+}
+#paging-wp .list-item li a {
+    background: #fff;
+    padding: 8px 12px;
+    color: #333;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+#paging-wp .list-item li.active a {
+    background-color: rgb(20, 53, 195);
+    color: #fff;
+    font-weight: bold;
+}
+#paging-wp .list-item li a:hover {
+    background: #868686;
+}
+
+button.btn-filter {
+    width: 100%;
+    background: #7e8eed;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 5px;
+    color: #fcf5f5;
+    font-weight: bold;
+}
+
+button.btn-filter:hover {
+    background-color: #4562ea;
+}
+
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.pagination li.page-item {
+    margin-right: 5px;
+}
+ul.pagination li.page-item .page-link {
+    border-radius: 4px;
+    background: #dfdada;
+    border: none;
+    color: #372b2b;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+ul.pagination li.page-item:first-child .page-link,
+ul.pagination li.page-item:last-child .page-link {
+    padding: 10px 18px;
+}
+
+ul.pagination li.page-item.active > .page-link {
+    background: #b31f2a;
+    color: #fff !important;
+}
+
+ul.pagination li.page-item:hover .page-link{
+    background: #a6a3a3;
+}
+
+ul.pagination li.page-item.active:hover .page-link{
+    background: #d60917;
+}

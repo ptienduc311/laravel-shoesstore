@@ -1,0 +1,46 @@
+.container-size-shoes {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-size-shoes h2 {
+    color: #333;
+}
+
+.container-size-shoes .size-form {
+    display: flex;
+    gap: 10px;
+}
+
+.container-size-shoes .size-input {
+    flex: 1;
+    padding: 10px;
+}
+
+.container-size-shoes .size-list {
+    list-style: none;
+    padding: 0;
+}
+
+.container-size-shoes .size-list-item {
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.container-size-shoes .add-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-size-shoes .add-button:hover {
+    background-color: #0056b3;
+}

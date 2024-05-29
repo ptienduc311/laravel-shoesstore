@@ -1,0 +1,197 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.controls form {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.card-body span.seperate {
+    margin: 0 20px;
+}
+
+.controls input[type="text"] {
+    border: 1px solid #b1aaaa;
+    border-radius: 10px;
+}
+.select-option {
+    margin-bottom: 15px;
+}
+button.reset-btn, button.search-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #b1aaaa;
+}
+button.btn-apply{
+    padding: 5px 10px;
+    background-color: #dc3636;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #b1aaaa;
+}
+
+button.reset-btn:hover, button.search-btn:hover {
+    background-color: #0056b3;
+}
+button.btn-apply:hover{
+    background-color: #ce0d0d;
+}
+.reset-btn {
+    display: none; /* Ẩn nút mặc định */
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reset-btn.show {
+    display: inline-block; /* Hiển thị nút khi có giá trị tìm kiếm */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table td {
+    vertical-align: middle;
+}
+table td span.active{
+    display: inline-block;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    background-color: rgb(0 199 255);
+    border-radius: 10px;
+}
+table td span.inactive{
+    display: inline-block;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    background-color: rgb(232 255 33);
+    border-radius: 10px;
+}
+table td span.out_of_stock{
+    display: inline-block;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    background-color: rgb(227, 7, 7);
+    border-radius: 10px;
+    color: #fff;
+}
+table tbody tr td.nullResult{
+    color: red;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #cf352f;
+    color: white;
+    font-size: 12px;
+}
+
+.badge.Admin {
+    background-color: #ff9800;
+}
+
+.badge.Member {
+    background-color: #4caf50;
+}
+
+.btn {
+    border: none;
+    padding: 8px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn.edit {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn.edit:hover {
+    background-color: #218838;
+}
+
+.btn.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn.delete:hover {
+    background-color: #c82333;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.pagination .flex {
+    display: flex;
+}
+
+.pagination a,
+.pagination span {
+    color: #007bff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+.pagination a:hover,
+.pagination span:hover {
+    background-color: #d1c2c2;
+}
+
+.pagination .active span {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}

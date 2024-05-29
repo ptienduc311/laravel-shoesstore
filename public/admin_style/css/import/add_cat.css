@@ -1,0 +1,95 @@
+/*ADD CAT*/
+/* .card {
+    max-width: 400px;
+} */
+
+.add-cat-page #detail-page .section-detail .card .form-group .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.add-cat-page #detail-page .section-detail label {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+
+.add-cat-page #detail-page .section-detail input[type="text"] {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 35%;
+    margin-bottom: 15px;
+}
+
+.add-cat-page #detail-page .section-detail textarea {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.add-cat-page #detail-page .section-detail select {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.add-cat-page #detail-page .section-detail button {
+    display: block;
+    border: none;
+    outline: none;
+    background: #e7132b;
+    color: #fff;
+    padding: 8px 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.add-cat-page #detail-page .section-detail button:hover {
+    background: #cc031a;
+}
+
+#btn-upload-thumb {
+    font-size: 13px;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+#uploadFile {
+    margin-bottom: 15px;
+}
+
+#uploadFile img {
+    display: inline-block;
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.list-img{
+    display: block;
+}
+
+.img-item{
+    display: inline-block;
+    margin-right: 10px;
+}

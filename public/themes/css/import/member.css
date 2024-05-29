@@ -1,0 +1,139 @@
+/* Content  */
+.block-welcom{
+    padding: 10px;
+    margin-right: 25px;
+    display: block;
+    text-align: center;
+    /* width: 450px; */
+    border: 0.5px solid #e7e7e7;
+    border-radius: 15px;
+}
+
+.block-welcom .welcom-logo{
+    margin: 0 auto 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.block-welcom .welcom-member p{
+    margin: 0px;
+}
+
+.block-welcom .welcom-member p.text-welcom-2{
+    color: #fd2424;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.block-welcom .welcom-member .welcom-info{
+    margin: 25px auto 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block-welcom .welcom-member .welcom-info .item-contentWelcome{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.block-welcom .welcom-member .welcom-info .item-contentWelcome .cp-icon{
+    margin: 10px auto;
+    height: 45px;
+}
+
+.block-welcom .welcom-member .welcom-info .item-contentWelcome .cp-icon i{
+    font-size: 40px;
+    color: #ff3131;
+}
+
+#info-member{
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 25px;
+    display: block;
+    width: 700px;
+    border: 0.5px solid #bf9f9f;
+    border-radius: 15px;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-group label{
+    text-align: justify;
+    flex-basis: 130px;
+    padding: 3px 5px;
+}
+.form-group input{
+    border-radius: 7px;
+    flex-basis: 70%;
+    margin: 2px 5px;    
+}
+
+.form-group input::placeholder{
+    font-size: 16px;
+}
+
+.btn-submit{
+    background-color: #ff3131;
+}
+.button-member{
+    border-radius: 6px;
+    background: none;
+    background: #4357f5;
+    outline: none;
+    border: none;
+    padding: 5px 7px;
+    color: #fff;
+}
+
+.button-member:hover{
+    background: #1b2ec0;
+}
+/* Sidebar  */
+.block-menu{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f6fbfc;
+    top: 74px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.block-menu .block-menu-item {
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 0.5px 10px;
+}
+
+.block-menu .block-menu-item.active {
+    border-radius: 10px;
+    border: 0.5px solid #e11b1e;
+    background-color: #fee;
+}
+
+.block-menu .item-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.block-menu .block-menu-item.active .item-menu .box-icon {
+    filter: invert(15%) sepia(76%) saturate(5668%) hue-rotate(347deg) brightness(80%) contrast(113%);
+}
+
+.block-menu .block-menu-item.active .item-menu p {
+    color: #fd2424;
+}
+
+.block-menu .block-menu-item .item-menu p {
+    font-size: 15px;
+    margin: 0 0 0 10px;
+    color: #686868;
+    font-weight: 500;
+}

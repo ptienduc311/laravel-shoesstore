@@ -1,0 +1,78 @@
+.box-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    /* background-color: #ffffff; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.box-success {
+    background-color: #1ad400;
+}
+
+.box-processing {
+    background-color: #0513bf;
+}
+
+.box-cancel {
+    background-color: #f00e0e;
+}
+
+.box-total {
+    background-color: #ff6e00;
+}
+
+.box h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 2px solid;
+    padding: 4px;
+}
+
+.box p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #f9f3f3;
+}
+
+table#tb-dashboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+table#tb-dashboard th,
+table#tb-dashboard td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table#tb-dashboard th {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    text-align: center;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #3498db;
+}
+
+.actions button:hover i {
+    color: #ad0a28;
+}
